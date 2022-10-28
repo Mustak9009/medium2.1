@@ -9,11 +9,6 @@ import Image from 'next/image';
 interface PropsType {
   blogPage: PostType;
 }
-interface blogBodyImageType {
-  asset: {
-    _ref: string;
-  };
-}
 const PostFullBlog: NextPage<PropsType> = ({ blogPage }) => {
 
   return (
