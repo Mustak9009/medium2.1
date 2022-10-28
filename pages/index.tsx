@@ -1,7 +1,8 @@
 import React from "react";
 import type { NextPage } from "next";
 import Header from "../Components/Header";
-const HomeStatic: NextPage = () => {
+import HomeStatic from '../Components/HomeStatic';
+const Index: NextPage = () => {
  
   return (
     <>
@@ -10,4 +11,4 @@ const HomeStatic: NextPage = () => {
     </>
   );
 };
-export default HomeStatic;
+export default Index;
