@@ -13,7 +13,7 @@ const Index: NextPage<Porps> = ({posts}) => {
     <Head>
       <title>Medium2.0</title>
     </Head>
-    <main className="max-w-7xl mx-auto">
+    <main className="max-w-7xl mx-auto bg-orange-700">
       <Header />
       <HomeStatic />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6 ">
