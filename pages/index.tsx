@@ -1,7 +1,6 @@
 import React from "react";
 import type { NextPage } from "next";
-import Header from "../Components/Header";
-import HomeStatic from "../Components/HomeStatic";
+import {Header,HomeStatic} from '../Components';
 const Index: NextPage = () => {
   return (
     <main className="max-w-7xl mx-auto">
