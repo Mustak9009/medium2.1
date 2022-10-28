@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.9.10",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3",
     "next": "13.0.0",
+    "next-sanity": "^1.0.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.38.0",
+    "react-icons": "^4.6.0",
+    "react-portable-text": "^0.5.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "18.11.7",
