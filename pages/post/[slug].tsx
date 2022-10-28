@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import React from "react";
 import type { NextPage, GetStaticProps } from "next";
 import { sanityClient, urlFor } from "../../sanity";
@@ -72,7 +72,7 @@ const PostFullBlog: NextPage<PropsType> = ({ blogPage }) => {
       <hr className="border border-yellow-500 max-w-lg mx-auto my-5"/>
       <BlogComment blogPage={blogPage}/>
       {blogPage.comments.length !== 0 &&
-      <Comment blogPage={blogPage}/>
+       <Comment blogPage={blogPage}/>
       }
     </main>
   );
