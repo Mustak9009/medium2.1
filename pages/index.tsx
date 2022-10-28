@@ -1,14 +1,13 @@
 import React from "react";
 import type { NextPage } from "next";
 import Header from "../Components/Header";
-import HomeStatic from '../Components/HomeStatic';
+import HomeStatic from "../Components/HomeStatic";
 const Index: NextPage = () => {
- 
   return (
-    <div className="border-2 border-red-500">
-     <Header/>
-     <HomeStatic/>
-    </div>
+    <main className="max-w-7xl mx-auto">
+      <Header />
+      <HomeStatic />
+    </main>
   );
 };
 export default Index;
