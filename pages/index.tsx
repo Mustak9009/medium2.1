@@ -7,7 +7,6 @@ interface Porps{
   posts:[PostType];
 }
 const Index: NextPage<Porps> = ({posts}) => {
-  console.log(posts)
   return (
     <main className="max-w-7xl mx-auto">
       <Header />
