@@ -1,0 +1,45 @@
+export interface PostType{
+    _id:string,
+    _createdAt:string,
+    title:string,
+    author:{
+        name:string,
+        image:string
+    },
+    comments:Comment[],
+    description:string,
+    mainImage:{
+        asset:{
+            _ref:string
+        }
+    },
+    slug:{
+        current:string
+    },
+    body:[
+        _key:string,
+        _type:string,
+        children:Object,
+        markDefs:Array,
+        style:string,
+        asset:{
+            _ref:string,
+            _type:string
+        }
+    ]  
+}
+export interface Comment {
+        _createdAt:string,
+        _id:string,
+        _rev:string,
+        _type:string,
+        _updatedAt:string,
+        approved:boolean,
+        comment:string,
+        email:string,
+        name:string,
+        post:{
+            _ref:string,
+            _type:string
+        }
+}
