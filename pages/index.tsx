@@ -5,10 +5,10 @@ import HomeStatic from '../Components/HomeStatic';
 const Index: NextPage = () => {
  
   return (
-    <>
+    <div className="border-2">
      <Header/>
      <HomeStatic/>
-    </>
+    </div>
   );
 };
 export default Index;
