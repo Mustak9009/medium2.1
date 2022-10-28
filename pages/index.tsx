@@ -7,6 +7,7 @@ interface Porps{
   posts:[PostType];
 }
 const Index: NextPage<Porps> = ({posts}) => {
+  console.log(posts)
   return (
     <main className="max-w-7xl mx-auto">
       <Header />
@@ -15,6 +16,7 @@ const Index: NextPage<Porps> = ({posts}) => {
   );
 };
 export const getServerSideProps = async () =>{
+
   const query = `
     *[_type == "post"]{
       _id,
