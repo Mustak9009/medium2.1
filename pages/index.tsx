@@ -5,7 +5,7 @@ import HomeStatic from '../Components/HomeStatic';
 const Index: NextPage = () => {
  
   return (
-    <div className="border-2">
+    <div className="border-2 border-red-500">
      <Header/>
      <HomeStatic/>
     </div>
