@@ -78,7 +78,7 @@ const PostFullBlog: NextPage<PropsType> = ({ blogPage }) => {
   );
 };
 function Comment({blogPage}:{blogPage:PostType}){
-  console.log(blogPage);
+  
   return(
       <section className="flex flex-col p-10 my-10 max-w-2xl mx-auto shadow shadow-yellow-500 space-y-2">
         <h3 className="text-4xl font-bold">Comment</h3>
